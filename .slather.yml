@@ -1,0 +1,10 @@
+coverage_service: cobertura_xml
+scheme: testapp
+xcodeproj: Example/AppMbIosW1PollosHermanos.xcodeproj
+workspace: AppMbIosW1PollosHermanos.xcworkspace
+source_directory: LibraryComponents
+output_directory: coverage
+ignore:
+ - ../**/*/Xcode*
+ - Example/*
+ - Pods/*
