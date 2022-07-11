@@ -1,0 +1,8 @@
+{
+    "project_id" : "AppMbIosW1PollosHermanos",
+    "load": [
+        "/usr/local/opt/arc-lint"
+    ],
+    "xcodebuild.workspace": "AppMbIosW1PollosHermanos.xcworkspace",
+    "xcodebuild.scheme": "testapp"
+}
