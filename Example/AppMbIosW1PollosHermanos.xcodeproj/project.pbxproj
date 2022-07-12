@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4ECB8884C257CCC9FF20DE5D /* Pods_AppMbIosW1PollosHermanos_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E31619C80CA3428E6ED14608 /* Pods_AppMbIosW1PollosHermanos_Example.framework */; };
+		556C7B378DFFCD46703BF6AE /* Pods_AppMbIosW1PollosHermanos_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 364779C60E20326BE57BCEFF /* Pods_AppMbIosW1PollosHermanos_Tests.framework */; };
 		577463812226CBC300A9B71D /* AppMbIosW1PollosHermanosExamplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577463712226CBC300A9B71D /* AppMbIosW1PollosHermanosExamplePresenter.swift */; };
 		577463822226CBC300A9B71D /* AppMbIosW1PollosHermanosExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577463732226CBC300A9B71D /* AppMbIosW1PollosHermanosExampleViewController.swift */; };
 		577463832226CBC300A9B71D /* AppMbIosW1PollosHermanosExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577463752226CBC300A9B71D /* AppMbIosW1PollosHermanosExampleModel.swift */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2547EE58371FD103CBBD8FCC /* Pods-AppMbIosW1PollosHermanos_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMbIosW1PollosHermanos_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AppMbIosW1PollosHermanos_Tests/Pods-AppMbIosW1PollosHermanos_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		364779C60E20326BE57BCEFF /* Pods_AppMbIosW1PollosHermanos_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMbIosW1PollosHermanos_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9E7C66D1312A5C044CBF39 /* Pods-AppMbIosW1PollosHermanos_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMbIosW1PollosHermanos_Tests.release.xcconfig"; path = "Target Support Files/Pods-AppMbIosW1PollosHermanos_Tests/Pods-AppMbIosW1PollosHermanos_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		577463712226CBC300A9B71D /* AppMbIosW1PollosHermanosExamplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMbIosW1PollosHermanosExamplePresenter.swift; sourceTree = "<group>"; };
 		577463732226CBC300A9B71D /* AppMbIosW1PollosHermanosExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMbIosW1PollosHermanosExampleViewController.swift; sourceTree = "<group>"; };
 		577463752226CBC300A9B71D /* AppMbIosW1PollosHermanosExampleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMbIosW1PollosHermanosExampleModel.swift; sourceTree = "<group>"; };
@@ -52,6 +57,9 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* AppMbIosW1PollosHermanos_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMbIosW1PollosHermanos_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		76015453FADBECD4E5E59C2E /* Pods-AppMbIosW1PollosHermanos_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMbIosW1PollosHermanos_Example.release.xcconfig"; path = "Target Support Files/Pods-AppMbIosW1PollosHermanos_Example/Pods-AppMbIosW1PollosHermanos_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CCDFFE4FC9574257A1CC2897 /* Pods-AppMbIosW1PollosHermanos_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMbIosW1PollosHermanos_Example.debug.xcconfig"; path = "Target Support Files/Pods-AppMbIosW1PollosHermanos_Example/Pods-AppMbIosW1PollosHermanos_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E31619C80CA3428E6ED14608 /* Pods_AppMbIosW1PollosHermanos_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMbIosW1PollosHermanos_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ECB8884C257CCC9FF20DE5D /* Pods_AppMbIosW1PollosHermanos_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,15 +75,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556C7B378DFFCD46703BF6AE /* Pods_AppMbIosW1PollosHermanos_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EE0B656287CB2C9008402B3 /* Motorcycles */ = {
+			isa = PBXGroup;
+			children = (
+				0EE0B65D287CB3DA008402B3 /* MotorcycleList */,
+				0EE0B65B287CB36E008402B3 /* MotorcycleDetail */,
+			);
+			path = Motorcycles;
+			sourceTree = "<group>";
+		};
+		0EE0B657287CB2F3008402B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EE0B659287CB311008402B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EE0B65A287CB322008402B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0EE0B65B287CB36E008402B3 /* MotorcycleDetail */ = {
+			isa = PBXGroup;
+			children = (
+				0EE0B657287CB2F3008402B3 /* Model */,
+				0EE0B659287CB311008402B3 /* View */,
+				0EE0B65A287CB322008402B3 /* ViewModel */,
+			);
+			path = MotorcycleDetail;
+			sourceTree = "<group>";
+		};
+		0EE0B65D287CB3DA008402B3 /* MotorcycleList */ = {
+			isa = PBXGroup;
+			children = (
+				0EE0B65E287CB401008402B3 /* Model */,
+				0EE0B65F287CB407008402B3 /* View */,
+				0EE0B660287CB40D008402B3 /* ViewModel */,
+			);
+			path = MotorcycleList;
+			sourceTree = "<group>";
+		};
+		0EE0B65E287CB401008402B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EE0B65F287CB407008402B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EE0B660287CB40D008402B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		256C884E4911D1875D10C1E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E31619C80CA3428E6ED14608 /* Pods_AppMbIosW1PollosHermanos_Example.framework */,
+				364779C60E20326BE57BCEFF /* Pods_AppMbIosW1PollosHermanos_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5774636E2226CBC300A9B71D /* App */ = {
 			isa = PBXGroup;
 			children = (
+				0EE0B656287CB2C9008402B3 /* Motorcycles */,
 				5774636F2226CBC300A9B71D /* Home */,
 				577463782226CBC300A9B71D /* Faqs */,
 			);
@@ -191,6 +282,8 @@
 				607FACD21AFB9204008FA782 /* Example for AppMbIosW1PollosHermanos */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
+				E30496CDD2B47B36B5D4F510 /* Pods */,
+				256C884E4911D1875D10C1E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +342,18 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		E30496CDD2B47B36B5D4F510 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCDFFE4FC9574257A1CC2897 /* Pods-AppMbIosW1PollosHermanos_Example.debug.xcconfig */,
+				76015453FADBECD4E5E59C2E /* Pods-AppMbIosW1PollosHermanos_Example.release.xcconfig */,
+				2547EE58371FD103CBBD8FCC /* Pods-AppMbIosW1PollosHermanos_Tests.debug.xcconfig */,
+				4A9E7C66D1312A5C044CBF39 /* Pods-AppMbIosW1PollosHermanos_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -256,10 +361,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AppMbIosW1PollosHermanos_Example" */;
 			buildPhases = (
+				C92E497556DA3D9035F9D91D /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				9CE112A223C77CA40017B770 /* SwiftLint */,
+				85083F040C76631CB2F6DAD1 /* [CP] Embed Pods Frameworks */,
+				7080BF70873BF8C3F548A86F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,9 +382,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AppMbIosW1PollosHermanos_Tests" */;
 			buildPhases = (
+				F13D09A6B0A05CD6EDF6ED30 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
+				20DF7430C2AEE71CD88BC766 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -350,6 +460,171 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		20DF7430C2AEE71CD88BC766 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMbIosW1PollosHermanos_Tests/Pods-AppMbIosW1PollosHermanos_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppMbIosW1PollosHermanos_Tests/Pods-AppMbIosW1PollosHermanos_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7080BF70873BF8C3F548A86F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppMbIosW1PollosHermanos_Example/Pods-AppMbIosW1PollosHermanos_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85083F040C76631CB2F6DAD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppMbIosW1PollosHermanos_Example/Pods-AppMbIosW1PollosHermanos_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework",
+				"${BUILT_PRODUCTS_DIR}/AndesUI/AndesUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AndesUIDraftModal/AndesUIDraftModal.framework",
+				"${BUILT_PRODUCTS_DIR}/Base64/Base64.framework",
+				"${BUILT_PRODUCTS_DIR}/Bugsnag/Bugsnag.framework",
+				"${BUILT_PRODUCTS_DIR}/BugsnagNetworkRequestPlugin/BugsnagNetworkRequestPlugin.framework",
+				"${BUILT_PRODUCTS_DIR}/DataPrivacyHelper/DataPrivacyHelper.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FXBlurView/FXBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseABTesting/FirebaseABTesting.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseDynamicLinks/FirebaseDynamicLinks.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebasePerformance/FirebasePerformance.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseRemoteConfig/FirebaseRemoteConfig.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/JRSwizzle/JRSwizzle.framework",
+				"${BUILT_PRODUCTS_DIR}/JWT/JWT.framework",
+				"${PODS_ROOT}/MLAnalytics/MLGAFramework/MLGAFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/MLAnalytics/MLAnalytics.framework",
+				"${BUILT_PRODUCTS_DIR}/MLAuthentication/MLAuthentication.framework",
+				"${BUILT_PRODUCTS_DIR}/MLCollaborators/MLCollaborators.framework",
+				"${BUILT_PRODUCTS_DIR}/MLCommons/MLCommons.framework",
+				"${BUILT_PRODUCTS_DIR}/MLFirebase/MLFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/MLGodzippa/MLGodzippa.framework",
+				"${BUILT_PRODUCTS_DIR}/MLLocalStorage/MLLocalStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/MLMelidata/MLMelidata.framework",
+				"${BUILT_PRODUCTS_DIR}/MLMetrics/MLMetrics.framework",
+				"${BUILT_PRODUCTS_DIR}/MLNavigationBarTransition/MLNavigationBarTransition.framework",
+				"${BUILT_PRODUCTS_DIR}/MLNetworking/MLNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MLNotifications/MLNotifications.framework",
+				"${BUILT_PRODUCTS_DIR}/MLOnDemandResources/MLOnDemandResources.framework",
+				"${BUILT_PRODUCTS_DIR}/MLPlace/MLPlace.framework",
+				"${BUILT_PRODUCTS_DIR}/MLReachability/MLReachability.framework",
+				"${BUILT_PRODUCTS_DIR}/MLRemoteConfigurations/MLRemoteConfigurations.framework",
+				"${BUILT_PRODUCTS_DIR}/MLSecurity/MLSecurity.framework",
+				"${BUILT_PRODUCTS_DIR}/MLUI/MLUI.framework",
+				"${BUILT_PRODUCTS_DIR}/MLUIComponents/MLUIComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MLWebkit/MLWebkit.framework",
+				"${BUILT_PRODUCTS_DIR}/MPDynamicSkeleton/MPDynamicSkeleton.framework",
+				"${BUILT_PRODUCTS_DIR}/MobileCryptography/MobileCryptography.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/ReauthNativeAdapter/ReauthNativeAdapter.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/NewRelic/NewRelic.framework/NewRelic",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adjust.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AndesUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AndesUIDraftModal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base64.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bugsnag.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BugsnagNetworkRequestPlugin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DataPrivacyHelper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FXBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseABTesting.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseDynamicLinks.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebasePerformance.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseRemoteConfig.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JRSwizzle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLGAFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLAnalytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLAuthentication.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLCollaborators.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLCommons.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLGodzippa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLLocalStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLMelidata.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLMetrics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLNavigationBarTransition.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLNotifications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLOnDemandResources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLPlace.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLReachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLRemoteConfigurations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLSecurity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLUIComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLWebkit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MPDynamicSkeleton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileCryptography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReauthNativeAdapter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAEMKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit_Basics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NewRelic.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppMbIosW1PollosHermanos_Example/Pods-AppMbIosW1PollosHermanos_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9CE112A223C77CA40017B770 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +642,50 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n  (cd ..; swiftlint autocorrect)\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		C92E497556DA3D9035F9D91D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMbIosW1PollosHermanos_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13D09A6B0A05CD6EDF6ED30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMbIosW1PollosHermanos_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -518,6 +837,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDFFE4FC9574257A1CC2897 /* Pods-AppMbIosW1PollosHermanos_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -534,6 +854,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76015453FADBECD4E5E59C2E /* Pods-AppMbIosW1PollosHermanos_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -549,6 +870,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2547EE58371FD103CBBD8FCC /* Pods-AppMbIosW1PollosHermanos_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -571,6 +893,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A9E7C66D1312A5C044CBF39 /* Pods-AppMbIosW1PollosHermanos_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (

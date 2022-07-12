@@ -1,0 +1,936 @@
+PODS:
+  - Adjust (4.29.7):
+    - Adjust/Core (= 4.29.7)
+  - Adjust/Core (4.29.7)
+  - AndesUI (3.68.1):
+    - AndesUI/Core (= 3.68.1)
+    - PureLayout (= 3.1.2)
+  - AndesUI/Core (3.68.1):
+    - AndesUI/LocalIcons
+    - PureLayout (= 3.1.2)
+  - AndesUI/LocalIcons (3.68.1):
+    - PureLayout (= 3.1.2)
+  - AndesUIDraftModal (2.12.2):
+    - AndesUI (~> 3.0)
+    - AndesUIDraftModal/MercadoLibre (= 2.12.2)
+    - AndesUIDraftModal/MercadoPago (= 2.12.2)
+    - MLAnalytics (~> 2.2)
+    - MLCommons (~> 1.69)
+    - MLNetworking (~> 0.12)
+    - MLOnDemandResources (~> 1.0)
+    - MPDynamicSkeleton (~> 0.2)
+    - PureLayout (= 3.1.2)
+  - AndesUIDraftModal/MercadoLibre (2.12.2):
+    - AndesUI (~> 3.0)
+    - MLAnalytics (~> 2.2)
+    - MLCommons (~> 1.69)
+    - MLNetworking (~> 0.12)
+    - MLOnDemandResources (~> 1.0)
+    - MPDynamicSkeleton (~> 0.2)
+    - PureLayout (= 3.1.2)
+  - AndesUIDraftModal/MercadoPago (2.12.2):
+    - AndesUI (~> 3.0)
+    - MLAnalytics (~> 2.2)
+    - MLCommons (~> 1.69)
+    - MLNetworking (~> 0.12)
+    - MLOnDemandResources (~> 1.0)
+    - MPDynamicSkeleton (~> 0.2)
+    - PureLayout (= 3.1.2)
+  - AppMbIosW1PollosHermanos (0.1.0):
+    - MLCommons (~> 1.23)
+  - AuthCommons/MercadoLibre (1.7.0):
+    - MLCommons (~> 1.64)
+    - MLNetworking (~> 0.25)
+    - MLUIComponents (~> 1.76)
+    - MLWebkit (~> 1.0)
+  - Base64 (1.1.2)
+  - Bugsnag (6.14.3)
+  - BugsnagNetworkRequestPlugin (6.14.4):
+    - Bugsnag (~> 6.13)
+  - DataPrivacyHelper (1.1.0):
+    - DataPrivacyHelper/Commons (= 1.1.0)
+    - MLAuthentication (~> 0.6)
+    - MLCommons (~> 1.73)
+    - MLLocalStorage (~> 0.8)
+    - MLMelidata (~> 0.17)
+    - MLNetworking (~> 0.21)
+    - MLReachability (~> 2.0)
+  - DataPrivacyHelper/Commons (1.1.0):
+    - MLAuthentication (~> 0.6)
+    - MLCommons (~> 1.72, ~> 1.73)
+    - MLLocalStorage (~> 0.8)
+    - MLMelidata (~> 0.17)
+    - MLNetworking (~> 0.21)
+    - MLReachability (~> 2.0)
+  - DeveloperMode/Core (0.12.0):
+    - AndesUI (~> 3.18)
+    - DeveloperMode/Protocol
+  - DeveloperMode/DefaultModes (0.12.0):
+    - DeveloperMode/Core
+    - MLCommons (~> 1.23)
+    - MLLocalStorage (~> 0.2)
+  - DeveloperMode/Protocol (0.12.0):
+    - MLCommons (~> 1.23)
+  - FBAEMKit (13.2.0):
+    - FBSDKCoreKit_Basics (= 13.2.0)
+  - FBSDKCoreKit (13.2.0):
+    - FBAEMKit (= 13.2.0)
+    - FBSDKCoreKit_Basics (= 13.2.0)
+  - FBSDKCoreKit_Basics (13.2.0)
+  - Firebase/Core (7.8.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 7.8.1)
+  - Firebase/CoreOnly (7.8.1):
+    - FirebaseCore (= 7.8.0)
+  - Firebase/DynamicLinks (7.8.1):
+    - Firebase/CoreOnly
+    - FirebaseDynamicLinks (~> 7.8.0)
+  - FirebaseABTesting (7.11.0):
+    - FirebaseCore (~> 7.0)
+  - FirebaseAnalytics (7.8.1):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleAppMeasurement (= 7.8.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - FirebaseCore (7.8.0):
+    - FirebaseCoreDiagnostics (~> 7.4)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+  - FirebaseCoreDiagnostics (7.9.0):
+    - GoogleDataTransport (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/Logger (~> 7.0)
+    - nanopb (~> 2.30907.0)
+  - FirebaseDynamicLinks (7.8.0):
+    - FirebaseCore (~> 7.0)
+  - FirebaseInstallations (7.11.0):
+    - FirebaseCore (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/UserDefaults (~> 7.0)
+    - PromisesObjC (~> 1.2)
+  - FirebasePerformance (7.8.0):
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - FirebaseRemoteConfig (~> 7.0)
+    - GoogleDataTransport (~> 8.2)
+    - GoogleUtilities/Environment (~> 7.0)
+    - GoogleUtilities/ISASwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - Protobuf (~> 3.12)
+  - FirebaseRemoteConfig (7.11.0):
+    - FirebaseABTesting (~> 7.0)
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+  - FLAnimatedImage (1.0.16)
+  - FXBlurView (1.6.4)
+  - GoogleAppMeasurement (7.8.1):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
+    - GoogleUtilities/MethodSwizzler (~> 7.0)
+    - GoogleUtilities/Network (~> 7.0)
+    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - nanopb (~> 2.30907.0)
+  - GoogleDataTransport (8.3.1):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30907.0)
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/ISASwizzler (7.7.0)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - InAppUpdates (0.3.2):
+    - AndesUI (~> 3.40)
+    - MLCommons (~> 1.23)
+    - MLLocalStorage (~> 0.8)
+    - MLMelidata (~> 0.10)
+    - MLRemoteConfigurations (~> 1.2)
+    - MLUIComponents (~> 1.82)
+  - JRSwizzle (1.0)
+  - JWT (2.2.0):
+    - Base64 (~> 1.1.2)
+  - lottie-ios (2.5.3)
+  - MLAnalytics (2.16.4):
+    - MLCommons (~> 1.16)
+  - MLAuthentication (0.10.1):
+    - MLCommons/Core (~> 1.40)
+    - MLLocalStorage (~> 0.8)
+    - MLSecurity (~> 1.0)
+    - MobileCryptography (~> 1.0)
+  - MLBiometricSecurity (0.86.0):
+    - AndesUI (~> 3.5)
+    - AndesUIDraftModal (~> 2.5)
+    - lottie-ios (~> 2.0)
+    - MLAuthentication (~> 0.3)
+    - MLBiometricSecurity/BiometricCore (= 0.86.0)
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.54)
+    - MLMelidata (~> 0.16)
+    - MLNetworking (~> 0.26)
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.0)
+    - MLUI (~> 5.7)
+    - MLUIComponents (~> 1.3)
+    - PureLayout (= 3.1.2)
+  - MLBiometricSecurity/BiometricCore (0.86.0):
+    - AndesUI (~> 3.5)
+    - AndesUIDraftModal (~> 2.5)
+    - lottie-ios (~> 2.0)
+    - MLAuthentication (~> 0.3)
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.54)
+    - MLMelidata (~> 0.16)
+    - MLNetworking (~> 0.26)
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.0)
+    - MLUI (~> 5.7)
+    - MLUIComponents (~> 1.3)
+    - PureLayout (= 3.1.2)
+  - MLBiometricSecurity/MercadoLibre (0.86.0):
+    - AndesUI (~> 3.5)
+    - AndesUIDraftModal (~> 2.5)
+    - lottie-ios (~> 2.0)
+    - MLAuthentication (~> 0.3)
+    - MLBiometricSecurity/BiometricCore
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.54)
+    - MLMelidata (~> 0.16)
+    - MLNetworking (~> 0.26)
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.0)
+    - MLUI (~> 5.7)
+    - MLUIComponents (~> 1.3)
+    - PureLayout (= 3.1.2)
+  - MLCardDrawer (1.10.0):
+    - MLCardDrawer/Default (= 1.10.0)
+  - MLCardDrawer/Default (1.10.0)
+  - MLCardForm (0.11.0):
+    - AndesUI (~> 3.0)
+    - MLCardDrawer (~> 1.0)
+    - MLCardForm/Default (= 0.11.0)
+    - MLUI (~> 5.0)
+  - MLCardForm/Default (0.11.0):
+    - AndesUI (~> 3.0)
+    - MLCardDrawer (~> 1.0)
+    - MLUI (~> 5.0)
+  - MLCollaborators (0.3.0):
+    - MLAnalytics (~> 2.16)
+    - MLAuthentication (~> 0.6)
+    - MLCommons (~> 1.72)
+    - MLNetworking (~> 0.26)
+    - MLRemoteConfigurations (~> 1.1)
+    - MLUI (~> 5.24)
+  - MLCommons (1.76.0):
+    - MLCommons/Core (= 1.76.0)
+    - MLCommons/MLLocation (= 1.76.0)
+    - MLCommons/Resources (= 1.76.0)
+    - MLCommons/Router (= 1.76.0)
+    - MLCommons/VersionChecker (= 1.76.0)
+    - MLRemoteConfigurations (~> 1.1)
+  - MLCommons/Core (1.76.0):
+    - Bugsnag (= 6.14.3)
+    - BugsnagNetworkRequestPlugin (~> 6.14.3)
+    - MLRemoteConfigurations (~> 1.1)
+  - MLCommons/MLLocation (1.76.0):
+    - MLCommons/Core
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.1)
+  - MLCommons/Resources (1.76.0):
+    - MLRemoteConfigurations (~> 1.1)
+  - MLCommons/Router (1.76.0):
+    - MLCommons/Core
+    - MLRemoteConfigurations (~> 1.1)
+  - MLCommons/VersionChecker (1.76.0):
+    - MLCommons/Core
+    - MLRemoteConfigurations (~> 1.1)
+  - MLConfigurationProvider (4.2.4):
+    - MLConfigurationProvider/App (= 4.2.4)
+  - MLConfigurationProvider/App (4.2.4):
+    - Adjust (~> 4.29.3)
+    - DataPrivacyHelper (~> 1.0)
+    - DeveloperMode/DefaultModes (~> 0.2)
+    - Firebase/Core (~> 7.8.0)
+    - InAppUpdates (~> 0.3)
+    - MLAnalytics (~> 2.2)
+    - MLAuthentication (~> 0.2)
+    - MLCardForm (~> 0.7)
+    - MLConfigurationProvider/Core
+    - MLCreditsBehaviours (~> 3.0)
+    - MLCrossAppLinks/ExternalProviders (~> 1.0)
+    - MLESCManager (~> 2.0)
+    - MLFirebase (~> 1.0)
+    - MLLocalStorage (~> 0.2)
+    - MLMelidata (~> 0.13)
+    - MLMetrics (~> 1.0)
+    - MLNavigation (~> 1.7)
+    - MLNetworking (~> 0.21)
+    - MLNotifications (~> 3.0)
+    - MLOnDemandResources (~> 1.4)
+    - MLPlace (~> 1.2)
+    - MLRemoteConfigurations (~> 1.2)
+    - MLUIComponents (~> 1.78)
+    - MLUserBlocker (~> 2.0)
+    - MLWebkit (~> 1.0)
+    - MPAppRater (~> 1.0)
+    - StartUPInitializer (~> 3.1)
+  - MLConfigurationProvider/Core (4.2.4):
+    - AndesUI (~> 3.28)
+    - MLCommons (~> 1.70)
+    - MLUI (~> 5.8)
+  - MLCreditsBehaviours (3.0.1):
+    - AndesUI (~> 3.0)
+    - MLAnalytics (~> 2.2)
+    - MLAuthentication (~> 0.2)
+    - MLCommons (~> 1.23)
+    - MLMelidata (~> 0.3)
+    - MLNetworking (~> 0.12)
+    - MLRegistration (~> 1.32)
+    - MLUI (~> 5.0)
+    - MLUIComponents (~> 1.0)
+  - MLCrossAppLinks/Core (1.7.1):
+    - MLCommons/VersionChecker (~> 1.23)
+    - MLMelidata (~> 0.9)
+  - MLCrossAppLinks/ExternalProviders (1.7.1):
+    - FBSDKCoreKit (~> 13.2.0)
+    - MLCrossAppLinks/Core
+  - MLESCManager (2.1.0):
+    - MLMelidata (~> 0.3)
+  - MLFirebase (1.1.0)
+  - MLGodzippa (0.1.1)
+  - MLLocalStorage (0.11.0):
+    - FirebasePerformance (~> 7.8.0)
+    - MLCommons (~> 1.7)
+  - MLLogin (1.32.0):
+    - MLLogin/MercadoLibre (= 1.32.0)
+  - MLLogin/Dependency (1.32.0):
+    - MLAnalytics (~> 2.14)
+    - MLAuthentication (~> 0.4)
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.50)
+    - MLMelidata (~> 0.10)
+    - MLNotifications (~> 3.2)
+    - MLReachability (~> 2.1)
+    - MLUIComponents (~> 1.37)
+    - MLWebkit (~> 1.0)
+  - MLLogin/MercadoLibre (1.32.0):
+    - AuthCommons/MercadoLibre (~> 1.5)
+    - MLLogin/Dependency
+    - MLNetworking (~> 0.21)
+    - SecurityTwoFactor/MercadoLibre (~> 1.0)
+  - MLMelidata (0.24.0):
+    - JWT (= 2.2.0)
+    - MLCommons (~> 1.14)
+    - MLGodzippa (~> 0.1)
+    - MLNetworking (~> 0.21)
+    - MLReachability (~> 2.0)
+  - MLMetrics (1.5.4):
+    - FirebasePerformance (~> 7.8.0)
+    - MLAnalytics (~> 2.9)
+    - MLCommons (~> 1.40)
+    - MLUI (~> 5.11)
+    - NewRelicAgent (~> 7.3.4)
+  - MLNavigation (1.7.8):
+    - Adjust (~> 4.29.3)
+    - Firebase/DynamicLinks (~> 7.8.0)
+    - MLAnalytics (~> 2.2)
+    - MLCommons (~> 1.23)
+    - MLMelidata (~> 0.6)
+    - MLRemoteConfigurations (~> 1.1)
+    - MLUIComponents (~> 1.76)
+  - MLNavigationBarTransition (1.2.7)
+  - MLNetworking (0.29.0):
+    - MLNetworking/Images (= 0.29.0)
+    - MLNetworking/Maps (= 0.29.0)
+    - MLNetworking/Networking (= 0.29.0)
+    - MLNetworking/RestClient (= 0.29.0)
+  - MLNetworking/Images (0.29.0):
+    - PINCache (= 2.3)
+    - PINRemoteImage (= 2.1.4)
+  - MLNetworking/Maps (0.29.0):
+    - PINCache (= 2.3)
+    - PINRemoteImage (= 2.1.4)
+  - MLNetworking/Networking (0.29.0)
+  - MLNetworking/RestClient (0.29.0):
+    - MLAuthentication (~> 0.7)
+    - MLCommons (~> 1.59)
+    - MLMetrics (~> 1.5)
+    - MLNetworking/Networking
+    - MLRemoteConfigurations (~> 1.1)
+    - MobileCryptography (~> 1.0)
+    - ReauthNativeAdapter (~> 1.0)
+  - MLNotifications (3.28.0):
+    - MLAuthentication (~> 0.3)
+    - MLCommons (~> 1.59)
+    - MLLocalStorage (~> 0.2)
+    - MLMelidata (~> 0.9)
+    - MLNetworking (~> 0.25)
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.0)
+  - MLOnDemandResources (1.7.0):
+    - MLAuthentication (~> 0.4)
+    - MLCommons (~> 1.56)
+    - MLNetworking (~> 0.21)
+    - MLRemoteConfigurations (~> 1.0)
+  - MLPlace (1.4.0):
+    - MLCommons (~> 1.40)
+  - MLReachability (2.2.0)
+  - MLRegistration (1.32.2):
+    - MLRegistration/MercadoLibre (= 1.32.2)
+  - MLRegistration/Core (1.32.2):
+    - Firebase/Core (~> 7.8.0)
+    - MLAnalytics (~> 2.14)
+    - MLAuthentication (~> 0.4)
+    - MLCommons (~> 1.50)
+    - MLMelidata (~> 0.10)
+    - MLNetworking (~> 0.12)
+    - MLSecurity (~> 1.0)
+    - MLUI (~> 5.0)
+    - MLUIComponents (~> 1.37)
+    - MLWebkit (~> 1.0)
+    - PureLayout (~> 3.1.2)
+  - MLRegistration/MercadoLibre (1.32.2):
+    - MLLogin (~> 1.8)
+    - MLRegistration/Core
+  - MLRemoteConfigurations (1.2.0)
+  - MLSecurity (1.2.0)
+  - MLUI (5.25.0):
+    - MLUI/ActionButton (= 5.25.0)
+    - MLUI/Core (= 5.25.0)
+    - MLUI/Helpers (= 5.25.0)
+    - MLUI/MLButton (= 5.25.0)
+    - MLUI/MLCheckBox (= 5.25.0)
+    - MLUI/MLColorPalette (= 5.25.0)
+    - MLUI/MLContextualMenu (= 5.25.0)
+    - MLUI/MLFonts (= 5.25.0)
+    - MLUI/MLFullscreenModal (= 5.25.0)
+    - MLUI/MLGenericErrorView (= 5.25.0)
+    - MLUI/MLHeader (= 5.25.0)
+    - MLUI/MLHtml (= 5.25.0)
+    - MLUI/MLModal (= 5.25.0)
+    - MLUI/MLRadioButton (= 5.25.0)
+    - MLUI/MLSnackBar (= 5.25.0)
+    - MLUI/MLSpacing (= 5.25.0)
+    - MLUI/MLSpinner (= 5.25.0)
+    - MLUI/MLSwitch (= 5.25.0)
+    - MLUI/MLTextView (= 5.25.0)
+    - MLUI/MLTitledMultiLineTextField (= 5.25.0)
+    - MLUI/MLTitledSingleLineTextField (= 5.25.0)
+    - MLUI/PriceView (= 5.25.0)
+    - MLUI/SnackBarView (= 5.25.0)
+    - MLUI/StyleSheet (= 5.25.0)
+  - MLUI/ActionButton (5.25.0):
+    - MLUI/Core
+  - MLUI/Core (5.25.0):
+    - MLUI/MLFonts
+  - MLUI/Helpers (5.25.0)
+  - MLUI/MLButton (5.25.0):
+    - MLUI/Core
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLSpinner
+    - MLUI/StyleSheet
+  - MLUI/MLCheckBox (5.25.0):
+    - MLUI/MLColorPalette
+    - MLUI/StyleSheet
+  - MLUI/MLColorPalette (5.25.0)
+  - MLUI/MLContextualMenu (5.25.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLFonts (5.25.0):
+    - JRSwizzle (= 1.0)
+    - MLUI/Helpers
+    - MLUI/StyleSheet
+  - MLUI/MLFullscreenModal (5.25.0):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLHeader
+    - MLUI/StyleSheet
+  - MLUI/MLGenericErrorView (5.25.0):
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLSpacing
+  - MLUI/MLHeader (5.25.0):
+    - MLUI/MLColorPalette
+    - MLUI/StyleSheet
+  - MLUI/MLHtml (5.25.0):
+    - MLUI/MLFonts
+  - MLUI/MLModal (5.25.0):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLRadioButton (5.25.0):
+    - MLUI/StyleSheet
+  - MLUI/MLSnackBar (5.25.0):
+    - MLUI/Helpers
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLSpacing (5.25.0):
+    - JRSwizzle (= 1.0)
+    - MLUI/MLFonts
+  - MLUI/MLSpinner (5.25.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLSwitch (5.25.0):
+    - MLUI/Helpers
+    - MLUI/MLColorPalette
+  - MLUI/MLTextView (5.25.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLTitledMultiLineTextField (5.25.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLTitledSingleLineTextField
+    - MLUI/StyleSheet
+  - MLUI/MLTitledSingleLineTextField (5.25.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/PriceView (5.25.0):
+    - MLUI/Core
+    - MLUI/MLFonts
+  - MLUI/SnackBarView (5.25.0):
+    - MLUI/Helpers
+    - MLUI/MLFonts
+  - MLUI/StyleSheet (5.25.0)
+  - MLUIComponents (1.83.8):
+    - MLUIComponents/Core (= 1.83.8)
+    - MLUIComponents/MLActivities (= 1.83.8)
+    - MLUIComponents/MLErrorHandling (= 1.83.8)
+    - MLUIComponents/MLFeedbackInApp (= 1.83.8)
+    - MLUIComponents/MLHeader (= 1.83.8)
+    - MLUIComponents/MLHeaderBehaviour (= 1.83.8)
+    - MLUIComponents/MLHeaderController (= 1.83.8)
+    - MLUIComponents/MLIdfaRequest (= 1.83.8)
+    - MLUIComponents/MLLinearButtons (= 1.83.8)
+    - MLUIComponents/MLNavBarBehaviour (= 1.83.8)
+    - MLUIComponents/MLNavBarSearchBehaviour (= 1.83.8)
+    - MLUIComponents/MLOTPInput (= 1.83.8)
+    - MLUIComponents/MLPDFViewer (= 1.83.8)
+    - MLUIComponents/MLProfilePicture (= 1.83.8)
+    - MLUIComponents/MLResourceProvider (= 1.83.8)
+    - MLUIComponents/MLShippingTrackingBar (= 1.83.8)
+    - MLUIComponents/MLUICTabBarController (= 1.83.8)
+    - MLUIComponents/MLURLShareWrapper (= 1.83.8)
+  - MLUIComponents/Core (1.83.8)
+  - MLUIComponents/MLActivities (1.83.8):
+    - AndesUI (~> 3.0)
+    - MLNetworking (~> 0.15)
+    - MLOnDemandResources (~> 1.4)
+    - MLUI (~> 5.15)
+    - MPDynamicSkeleton (~> 0.2)
+    - PureLayout (= 3.1.2)
+    - RxSwift (~> 4.4.1)
+  - MLUIComponents/MLErrorHandling (1.83.8):
+    - AndesUI (~> 3.0)
+    - MLCommons (~> 1.48)
+    - MLMelidata (~> 0.3)
+    - MLRemoteConfigurations (~> 1.2)
+    - MLUI (~> 5.15)
+    - MLUIComponents/Core
+  - MLUIComponents/MLFeedbackInApp (1.83.8):
+    - AndesUI (~> 3.0)
+    - MLCommons (~> 1.48)
+    - MLUI (~> 5.15)
+  - MLUIComponents/MLHeader (1.83.8):
+    - MLCommons (~> 1.48)
+    - MLUI (~> 5.15)
+    - PureLayout (= 3.1.2)
+  - MLUIComponents/MLHeaderBehaviour (1.83.8):
+    - MLUIComponents/MLNavBarBehaviour
+  - MLUIComponents/MLHeaderController (1.83.8):
+    - MLCommons (~> 1.48)
+    - MLUI (~> 5.15)
+    - MLUIComponents/MLNavBarBehaviour
+  - MLUIComponents/MLIdfaRequest (1.83.8):
+    - MLCommons (~> 1.67)
+    - MLMelidata (~> 0.3)
+  - MLUIComponents/MLLinearButtons (1.83.8):
+    - MLCommons (~> 1.48)
+    - MLOnDemandResources (~> 1.4)
+    - MLUI (~> 5.15)
+    - MLUIComponents/Core
+    - MPDynamicSkeleton (~> 0.2)
+    - PureLayout (= 3.1.2)
+  - MLUIComponents/MLNavBarBehaviour (1.83.8):
+    - AndesUI (~> 3.0)
+    - MLCommons (~> 1.48)
+    - MLNavigationBarTransition (~> 1.2)
+    - MLUI (~> 5.15)
+  - MLUIComponents/MLNavBarSearchBehaviour (1.83.8):
+    - MLCommons (~> 1.48)
+    - MLUI (~> 5.15)
+    - MLUIComponents/Core
+  - MLUIComponents/MLOTPInput (1.83.8):
+    - MLUI (~> 5.0)
+    - MLUIComponents/Core
+    - PureLayout (= 3.1.2)
+  - MLUIComponents/MLPDFViewer (1.83.8):
+    - AndesUI (~> 3.0)
+    - MLAnalytics (~> 2.6)
+    - MLAuthentication (~> 0.2)
+    - MLCommons (~> 1.48)
+    - MLMelidata (~> 0.3)
+    - MLNetworking (~> 0.15)
+    - MLUI (~> 5.15)
+    - MLUIComponents/Core
+    - MLUIComponents/MLErrorHandling
+  - MLUIComponents/MLProfilePicture (1.83.8):
+    - MLAuthentication (~> 0.2)
+    - MLCommons (~> 1.48)
+    - MLNetworking (~> 0.15)
+    - MLUI (~> 5.15)
+    - MLUIComponents/Core
+    - MLUIComponents/MLErrorHandling
+  - MLUIComponents/MLResourceProvider (1.83.8):
+    - AndesUI (~> 3.0)
+    - MLOnDemandResources (~> 1.4)
+  - MLUIComponents/MLShippingTrackingBar (1.83.8):
+    - MLCommons (~> 1.48)
+    - MLUI (~> 5.15)
+  - MLUIComponents/MLUICTabBarController (1.83.8):
+    - AndesUI (~> 3.0)
+    - MLCommons (~> 1.48)
+    - MLNetworking (~> 0.15)
+    - MLOnDemandResources (~> 1.5)
+    - MLRemoteConfigurations (~> 1.2)
+    - MLUI (~> 5.15)
+    - MLUIComponents/Core
+    - MLUIComponents/MLNavBarBehaviour
+  - MLUIComponents/MLURLShareWrapper (1.83.8)
+  - MLUserBlocker (2.0.2):
+    - MLAnalytics (~> 2.3)
+    - MLAuthentication (~> 0.2)
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.33)
+    - MLMelidata (~> 0.3)
+    - MLNetworking (~> 0.16)
+    - MLOnDemandResources (~> 1.4)
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.0)
+    - MLUI (~> 5.0)
+    - MLUserBlocker/MercadoLibre (= 2.0.2)
+    - MLWebkit (~> 1.0)
+    - PureLayout (= 3.1.2)
+  - MLUserBlocker/MercadoLibre (2.0.2):
+    - MLAnalytics (~> 2.3)
+    - MLAuthentication (~> 0.2)
+    - MLBiometricSecurity/MercadoLibre (~> 0.27)
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.33)
+    - MLMelidata (~> 0.3)
+    - MLNetworking (~> 0.16)
+    - MLOnDemandResources (~> 1.4)
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.0)
+    - MLUI (~> 5.0)
+    - MLWebkit (~> 1.0)
+    - PureLayout (= 3.1.2)
+  - MLWebkit (1.4.5):
+    - MLCommons (~> 1.62)
+    - MLWebkit/Core (= 1.4.5)
+    - MLWebkit/Page (= 1.4.5)
+    - MLWebkit/PageNativeActions (= 1.4.5)
+  - MLWebkit/Core (1.4.5):
+    - MLCommons (~> 1.62)
+  - MLWebkit/Page (1.4.5):
+    - MLCommons (~> 1.62)
+    - MLWebkit/Core
+    - MLWebkit/PageNativeActions
+  - MLWebkit/PageNativeActions (1.4.5):
+    - AndesUI (~> 3.57)
+    - MLAnalytics (~> 2.9)
+    - MLAuthentication (~> 0.5)
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.62)
+    - MLLocalStorage (~> 0.4)
+    - MLMelidata (~> 0.11)
+    - MLMetrics (~> 1.3)
+    - MLNetworking (~> 0.25)
+    - MLOnDemandResources (~> 1.0)
+    - MLReachability (~> 2.2)
+    - MLRemoteConfigurations (~> 1.2)
+    - MLUI (~> 5.15)
+    - MLUIComponents (~> 1.76)
+    - MLWebkit/Core
+  - MobileCryptography (1.3.0):
+    - MLCommons (~> 1.23)
+    - MobileCryptography/MercadoLibre (= 1.3.0)
+    - MobileCryptography/MercadoPago (= 1.3.0)
+  - MobileCryptography/MercadoLibre (1.3.0):
+    - MLCommons (~> 1.23)
+  - MobileCryptography/MercadoPago (1.3.0):
+    - MLCommons (~> 1.23)
+  - MPAppRater (1.1.0):
+    - MLMelidata (~> 0.15)
+    - MLNetworking (~> 0.25)
+    - MLRemoteConfigurations (~> 1.2)
+  - MPDynamicSkeleton (0.2.3)
+  - nanopb (2.30907.0):
+    - nanopb/decode (= 2.30907.0)
+    - nanopb/encode (= 2.30907.0)
+  - nanopb/decode (2.30907.0)
+  - nanopb/encode (2.30907.0)
+  - NativeReauth/Core (1.22.0):
+    - AndesUI (~> 3.5)
+    - MLAuthentication (~> 0.3)
+    - MLBiometricSecurity (~> 0.85)
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.54)
+    - MLMelidata (~> 0.6)
+    - MLNetworking (~> 0.21)
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.0)
+    - MLUI (~> 5.7)
+    - MLUIComponents (~> 1.3)
+    - ReauthNativeAdapter (~> 1.0)
+  - NativeReauth/MercadoLibre (1.22.0):
+    - AndesUI (~> 3.5)
+    - MLAuthentication (~> 0.3)
+    - MLBiometricSecurity (~> 0.85)
+    - MLCollaborators (~> 0.1)
+    - MLCommons (~> 1.54)
+    - MLMelidata (~> 0.6)
+    - MLNetworking (~> 0.21)
+    - MLReachability (~> 2.0)
+    - MLRemoteConfigurations (~> 1.0)
+    - MLUI (~> 5.7)
+    - MLUIComponents (~> 1.3)
+    - NativeReauth/Core
+    - ReauthNativeAdapter (~> 1.0)
+  - NewRelicAgent (7.3.6)
+  - Nimble (9.2.1)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - PromisesObjC (1.2.12)
+  - Protobuf (3.21.2)
+  - PureLayout (3.1.2)
+  - Quick (2.2.1)
+  - ReauthNativeAdapter (1.0.0):
+    - MLCommons (~> 1.23)
+  - RxAtomic (4.4.2)
+  - RxSwift (4.4.2):
+    - RxAtomic (>= 4.4.2, ~> 4.4)
+  - SecurityTwoFactor/MercadoLibre (1.9.0):
+    - AndesUI (~> 3.35)
+    - AuthCommons/MercadoLibre (~> 1.3)
+    - MLAuthentication (~> 0.3)
+    - MLCommons (~> 1.23)
+    - MLNetworking (~> 0.13)
+    - MLReachability (~> 2.0)
+    - MLUIComponents (~> 1.3)
+    - NativeReauth/MercadoLibre (~> 1.9)
+  - StartUPInitializer (3.4.0):
+    - MLMetrics (~> 1.5.4)
+
+DEPENDENCIES:
+  - AppMbIosW1PollosHermanos (from `./`)
+  - MLConfigurationProvider
+  - Nimble (~> 9.2.1)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  "git@github.com:mercadolibre/mobile-ios_specs.git":
+    - AndesUIDraftModal
+    - AuthCommons
+    - DataPrivacyHelper
+    - DeveloperMode
+    - InAppUpdates
+    - MLAnalytics
+    - MLAuthentication
+    - MLBiometricSecurity
+    - MLCollaborators
+    - MLCommons
+    - MLConfigurationProvider
+    - MLCreditsBehaviours
+    - MLCrossAppLinks
+    - MLESCManager
+    - MLFirebase
+    - MLGodzippa
+    - MLLocalStorage
+    - MLLogin
+    - MLMelidata
+    - MLMetrics
+    - MLNavigation
+    - MLNavigationBarTransition
+    - MLNetworking
+    - MLNotifications
+    - MLOnDemandResources
+    - MLPlace
+    - MLReachability
+    - MLRegistration
+    - MLRemoteConfigurations
+    - MLSecurity
+    - MLUIComponents
+    - MLUserBlocker
+    - MLWebkit
+    - MobileCryptography
+    - MPAppRater
+    - NativeReauth
+    - ReauthNativeAdapter
+    - SecurityTwoFactor
+    - StartUPInitializer
+  trunk:
+    - Adjust
+    - AndesUI
+    - Base64
+    - Bugsnag
+    - BugsnagNetworkRequestPlugin
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDynamicLinks
+    - FirebaseInstallations
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - FLAnimatedImage
+    - FXBlurView
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - JRSwizzle
+    - JWT
+    - lottie-ios
+    - MLCardDrawer
+    - MLCardForm
+    - MLUI
+    - MPDynamicSkeleton
+    - nanopb
+    - NewRelicAgent
+    - Nimble
+    - PINCache
+    - PINRemoteImage
+    - PromisesObjC
+    - Protobuf
+    - PureLayout
+    - Quick
+    - RxAtomic
+    - RxSwift
+
+EXTERNAL SOURCES:
+  AppMbIosW1PollosHermanos:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  Adjust: 91a06a01e4bb35b432e26b5d5bb8995b95fc381c
+  AndesUI: 8bda048893a8e08af7d3abb3f0135d36e0d33159
+  AndesUIDraftModal: 4415f7a8ebeb756a776eccd2c646744b6832db16
+  AppMbIosW1PollosHermanos: 6c020598308f566518f396c63b932b5a2eac41ff
+  AuthCommons: 1f77c076238f3859d10c50cccb9e521d58074591
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  Bugsnag: 82cdfff1ddcfa9f06772dbbcab1684dabc9e5545
+  BugsnagNetworkRequestPlugin: 5416eff4377925187bde23f64aa0e7a401f907a2
+  DataPrivacyHelper: 72b614f84dd191d3cec8fe1a8d3cdb1d729aee39
+  DeveloperMode: c82d20e0fa97add332c02b4b261502f4d05a1735
+  FBAEMKit: c2b2895363b7e57192013d1dc49fdf498b28624c
+  FBSDKCoreKit: 58139803d861e72c7661dc875611a759352a55ac
+  FBSDKCoreKit_Basics: 1ffc68326a5ece051d85574f02a0adcf27c2a5f2
+  Firebase: d59ad4129167f9f0d2a4f6c1f0c462254b6002c8
+  FirebaseABTesting: e66f1f80747792630d9b292966de206d5df9853b
+  FirebaseAnalytics: 3b98b563d7d64c07900511198b4805cfd9f9f61c
+  FirebaseCore: 049029df3096e5c118917029be7da75ee16f3b1b
+  FirebaseCoreDiagnostics: 3d36e05da74cb8b7ce30e6594a8f201b982c725c
+  FirebaseDynamicLinks: 4075f93bb208f2f726ce539d85f4fdc4b1c0e583
+  FirebaseInstallations: a58d4f72ec5861840b84df489f2668d970df558a
+  FirebasePerformance: 4f9de7b38207bbe91396453e2ab669f8a2b864a7
+  FirebaseRemoteConfig: 0ea30de5fb0231df8c1bdcdf3b6c23bdc5066131
+  FLAnimatedImage: 8f3e854ebf9680b71f0b6e700939687fc4d82b4b
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  GoogleAppMeasurement: 50a254ee92c1b94fbe2abea7e3da35e4c6dedce0
+  GoogleDataTransport: 8b0e733ea77c9218778e5a9e34ba9508b8328939
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  InAppUpdates: b174d31e354299be68b04a73affa3f855462f4c8
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  JWT: cf73c0ab0dac762df3de8a3f1164352089d97780
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  MLAnalytics: 76c05c41f6c9e26a9ec5f380659a86c9f2a7f323
+  MLAuthentication: 3587cc75b2bf17ec563cd9468911a7e4564a08db
+  MLBiometricSecurity: ab5f7b4a8637ac40754ebe8a34db93dbc195d43f
+  MLCardDrawer: c3b26bbd314d0a9d94ee3a90785da5cccf0bb1b6
+  MLCardForm: e9aa30c8859084782792e723f8b822fa819b8a28
+  MLCollaborators: 672cd599e0dab4cbf1e1390be035bf2cadc7c3c8
+  MLCommons: 47d2815d25d855bf7e1a5e6d7189fb96a322fbb6
+  MLConfigurationProvider: 376ed3ca5d7c45107550df05eddd7743592e7a0f
+  MLCreditsBehaviours: 1cceca7048882eaaf56865945d49db0891e90d84
+  MLCrossAppLinks: 349a4f7f7f3c1d26537636111e12eea997a22c53
+  MLESCManager: 72d490a859884667c467ed336caa9bd5a361eca6
+  MLFirebase: c88e4eed9b376ec652150b72fea6abdd847e1f61
+  MLGodzippa: b7a63cddb7e402283d55d4d52ce9f3bcafd68d92
+  MLLocalStorage: febc2a46d7a567b34cb16ff53f53a7abe56ee6d2
+  MLLogin: 72e921e74082f964d85dbe5427f6fbbf77d443e6
+  MLMelidata: 201e92ba7aae70edf011c9cf866af394f2dec019
+  MLMetrics: 917cb4777de26a69b95a56a7f878501e4465dd25
+  MLNavigation: 358f889e0f89891ca22cbc54c8886e56d49a473d
+  MLNavigationBarTransition: b2efd510dbb4a16a2c809017043aa15f55e1d211
+  MLNetworking: 9589eab6028978df35807746a988b5cb0418793b
+  MLNotifications: 2860ef2df93abf54bf7815ce5dab4c09955fba3e
+  MLOnDemandResources: 0d558c380a39d0807bac570bac298057d861a166
+  MLPlace: 09d041577a03ba4eaece71545091c3fe7a8825a3
+  MLReachability: b3bfbeed92b628db425ddb0b8a416e03d3bda2f3
+  MLRegistration: 14c75dcc597984931a55db93642646122bd4dde6
+  MLRemoteConfigurations: efe8862c82b00b8c58e93fce3e93c5c90970a2dd
+  MLSecurity: 33e1a4a164a547ced42951b379c9087348234f8d
+  MLUI: db4e5bb3aae6884212dcf1213d76b65c5cd26464
+  MLUIComponents: 1e1ab74d9b35c34ae04d7bbd33109c28c8e2d722
+  MLUserBlocker: b3fe82710c6590dbfa1f230acbb1b744e20778df
+  MLWebkit: 35d3aaf6948d7f572a04d7fb0a3d955e426c6617
+  MobileCryptography: 4320ca7a764c8042081b1524c1e40e697f04ea29
+  MPAppRater: 08d4c7e471e25e0ef59626c4354ab859a2b27358
+  MPDynamicSkeleton: 59deaa162cfad00faea1e6a89e01a7f83d551fa2
+  nanopb: 59221d7f958fb711001e6a449489542d92ae113e
+  NativeReauth: 9756f86ad61ff67073b4dd8b65bac93890a1882c
+  NewRelicAgent: e935016bcbf6940b2ff516d60a86049abbec2eb9
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
+  Protobuf: 818c6a87e44193a77f56b87c6a1c106efda7e062
+  PureLayout: 4634d0b61e3b5021166e8ec7c18e9e0ca0720c8b
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  ReauthNativeAdapter: 8bbb6e00e9a029bc37b1039dd6f6223a91e80fc4
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxSwift: 74c29b693c8e42b0f64400e8b06564575742d649
+  SecurityTwoFactor: 53f93c22590d38bbcf898f781eced3b8f1e353cb
+  StartUPInitializer: 76165777b2720486fd5040263fe60cc9e2783188
+
+PODFILE CHECKSUM: af5e4909edb29b53a415f29e8130f00f41b675bb
+
+COCOAPODS: 1.10.1
